@@ -1,4 +1,9 @@
-*.class
+.DS_Store
+.svn
+log/*.log
+tmp/**
+node_modules/
+.sass-cache*.class
 
 # Package Files #
 *.jar
