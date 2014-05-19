@@ -1,0 +1,13 @@
+{
+    "name": "Seminar",
+    "version": "2.0.0",
+    "author": "Marcin Jasion",
+
+    "devDependencies": {
+        "grunt": "*",
+        "matchdep": "*",
+        "grunt-express": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-open": "*"
+    }
+}
