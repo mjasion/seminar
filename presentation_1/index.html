@@ -729,27 +729,6 @@ int fibStatic(int i) {
     </div>
 </section>
 <section>
-    <h2>Groovy User Group</h2>
-
-    <div>
-        <br>
-    </div>
-    <div>
-        <br>
-    </div>
-    <div>
-        <br>
-    </div>
-    <h3>
-        Thursday, March 20, 2014</h3>
-
-    <p>Noa Cowork<br>Noakowskiego 16/39</p>
-
-    <div>
-        <br>
-    </div>
-</section>
-<section>
     <h2>Download</h2>
 
     <div>
@@ -807,24 +786,14 @@ int fibStatic(int i) {
 
         // Optional libraries used to extend on reveal.js
         dependencies: [
-            { src: 'lib/js/classList.js', condition: function () {
-                return !document.body.classList;
-            } },
-            { src: 'plugin/markdown/marked.js', condition: function () {
-                return !!document.querySelector('[data-markdown]');
-            } },
-            { src: 'plugin/markdown/markdown.js', condition: function () {
-                return !!document.querySelector('[data-markdown]');
-            } },
-            { src: 'plugin/highlight/highlight.js', async: true, callback: function () {
-                hljs.initHighlightingOnLoad();
-            } },
-            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
-                return !!document.body.classList;
-            } },
-            { src: 'plugin/notes/notes.js', async: true, condition: function () {
-                return !!document.body.classList;
-            } }
+            { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+            { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+            { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } },
+            { src: 'socket.io/socket.io.js', async: true },
+            { src: 'plugin/notes-server/client.js', async: true }
         ]
     });
 
