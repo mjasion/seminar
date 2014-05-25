@@ -31,66 +31,185 @@
         }
     </script>
 
+    <style type="text/css">
+        .reveal h1 { margin-bottom : 15% }
+    </style>
+
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic' rel='stylesheet'
+          type='text/css'>
 </head>
 
 <body>
-
 <div class="reveal">
+    <div class="slides">
+        <section>
+            <h1>RESTfull App in Java, Scala, JavaScript and Dart</h1>
+            <div>
+                Marcin Jasion
+            </div>
+            <div>
+                <a href="http://blog.mjasion.pl">blog.mjasion.pl</a> / <a href="https://twitter.com/marcinjasion">@marcinjasion</a>
+            </div>
+        </section>
+        <section>
+            <section>
+                <h1>Title</h1>
+                Porównanie wydajności serwisów RESTfull napisanych w językach Java, Scala, JavaScript i Dart
+            </section>
+            <section>
+                <h1>Promotor</h1>
+                <br/>
+                <img src="images/ksiwek.png"/>
+                <br/>
+                dr hab inż. Krzysztof Siwek
+            </section>
+        </section>
+        <section>
+            <section>
+                <h1>Genesis</h1>
+                <img src="images/restful-everywhere.jpg"/>
+            </section>
+            <section>
+                <h1>Node.js at</h1>
+                <img src="images/paypal.jpg"/>
+                <br/>
+                <br/>
+                <a href="https://www.paypal-engineering.com/2013/11/22/node-js-at-paypal/">https://www.paypal-engineering.com/2013/11/22/node-js-at-paypal/</a>
+            </section>
+            <section>
+                <img src="images/paypal-performance.gif"/>
+            </section>
+        </section>
+        <section>
+            <section><h1>Languages</h1></section>
+            <section style="position: absolute; top: -350px !important; left: 0;">
+                <img src="images/java.png"
+                     style="width: 186px; height: 270px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 80px; top: 24px;"
+                     class="absolute-element">
+                <img src="images/scala-logo2.jpg"
+                     style="width: 458px; height: 136px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 350px; top: 81px;"
+                     class="absolute-element">
 
-<div class="slides">
-<section>
-    <h1>REST in Java, Scala, NodeJS, Dart</h1>
+                <div class="fragment" data-fragment-index="0">
+                    <img src="images/dart-logo.png"
+                         style="width: 501px; height: 203px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 60px; top: 330px;"
+                         class="absolute-element">
+                    <img src="images/javascript-logo.png"
+                         style="width: 203px; height: 203px; max-height: none; max-width: none; position: absolute; z-index: 4; left: 627px; top: 330px;"
+                         class="absolute-element">
+                </div>
+            </section>
+        </section>
+        <section>
+            <section>
+                <h1>Java</h1>
+                <img src="images/Spring_Logo.png">
+                <br/>
+                MVC / DataRest
+            </section>
+            <section>
+                <h1>Scala</h1>
+                <img src="images/spray-logo.jpg">
+            </section>
+            <section data-background-image="images/jim-carrey.gif">
+                <h1>Node. JS & Dart</h1>
+            </section>
+            <section>
+                <img src="images/dart-performance.png" alt=""/>
+            </section>
+        </section>
+        <section>
+            <h1>Database</h1>
+            <img src="images/mongodb.jpg"/>
+        </section>
+        <section>
+            <h1>Application</h1>
+            <img src="images/imdb-logo.png" class="absolute-element fragment" data-fragment-index="0"
+                 style="position: absolute;  max-width: none; max-height: none; width: 369px; height: 172px; z-index: 6; left: 95px; top: 155px;">
+            <img src="images/filmweb-logo.png" class="absolute-element fragment" data-fragment-index="0"
+                 style="position: absolute; max-height: none; max-width: none; width: 600px; height: 172px; z-index: 4; left: 300px; top: 380px;">
+        </section>
+        <section>
+            <section>
+                <h1>Performance tests</h1>
+                <img src="images/jmeter-logo.jpg"/>
+            </section>
+            <section>
+                <h1>Cloud</h1>
+                <img src="images/cloud-diagram.png"/>
+            </section>
+        </section>
+        <section>
+            <section data-background-image="images/everything-ok.gif">
+                <h1>Progress</h1>
+                <h2 class="fragment">;-)</h2>
+            </section>
+            <section data-background-image="images/trololo.gif">
+                <h1>September ...</h1>
+                <h2 class="fragment">... February 2015 ...</h2>
+                <h2 class="fragment">... 2016?</h2>
+            </section>
+        </section>
+        <section>
+            <h1>Download</h1>
+            <div>Presentation</div>
+            <div>
+                <a href="http://mjasion.github.io/seminar/">http://mjasion.github.io/seminar/</a>
+            </div>
+            <br/>
+            <div>Fork me on GitHub</div>
+            <div>
+                <a href="https://github.com/mjasion/seminar">https://github.com/mjasion/seminar</a>
+            </div>
+        </section>
+        <section data-background-image="images/applause.gif">
+            <h1>Thanks!</h1>
+        </section>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
 
-    <div>
-        <font style="font-size: 40px;">Marcin Jasion</font>
-    </div>
-    <div>
-        <a href="http://blog.mjasion.pl">blog.mjasion.pl</a> / <a
-            href="https://twitter.com/marcinjasion">@marcinjasion</a>
+        <script>
 
-    </div>
+            //            Full list of configuration options available here:
+            //            https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
 
-</section>
+                theme: Reveal.getQueryHash().theme || 'default',
+                transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.min.js"></script>
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function () {
+                        return !document.body.classList;
+                    } },
+                    { src: 'plugin/markdown/marked.js', condition: function () {
+                        return !!document.querySelector('[data-markdown]');
+                    } },
+                    { src: 'plugin/markdown/markdown.js', condition: function () {
+                        return !!document.querySelector('[data-markdown]');
+                    } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                        hljs.initHighlightingOnLoad();
+                    } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
+                        return !!document.body.classList;
+                    } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function () {
+                        return !!document.body.classList;
+                    } },
+                    { src: 'socket.io/socket.io.js', async: true },
+                    { src: 'plugin/notes-server/client.js', async: true }
+                ]
+            });
 
-<script>
-
-    // Full list of configuration options available here:
-    // https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        mouseWheel: true,
-
-        theme: Reveal.getQueryHash().theme || 'default',
-//        theme: Reveal.getQueryHash().theme || 'simple', // available themes are in /css/theme
-        transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
-
-//        Parallax scrolling
-//        parallaxBackgroundImage: 'http://groovy.codehaus.org/images/groovy-logo-medium.png',
-//        parallaxBackgroundSize: '859px 429px',
-
-        // Optional libraries used to extend on reveal.js
-        dependencies: [
-            { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
-            { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-            { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-            { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
-            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
-            { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } },
-            { src: 'socket.io/socket.io.js', async: true },
-            { src: 'plugin/notes-server/client.js', async: true }
-        ]
-    });
-
-</script>
+        </script>
 
 </body>
 </html>
